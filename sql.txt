@@ -1,0 +1,54 @@
+1.Membuat sebuah table di database 
+
+SQL SYNTAX  :
+
+= CREATE TABLE nama_tabel (
+    kolom1 tipe_data1,
+    kolom2 tipe_data2,
+    kolom3 tipe_data3,
+     ...
+   );
+
+
+
+
+2.Memasukan nilai ke sebuah table
+
+SQL SYNTAX  :
+
+=  INSERT INTO `TABLE_NAME` ( `COLUMN1` , `COLUMN2` , `COLUMN3` , `... COLUMNEND`) VALUES ( VALUES1 , VALUES2 , VALUE3, ...VALUEEND )
+
+BISA JUGA SEPERTI INI 
+
+SQL SYNTAX  :
+
+= INSERT INTO TABLE_NAME VALUES ( VALUES1 , VALUES2 , VALUE3, ...VALUEEND ) 
+
+
+3.Mengambil nilai dari semua tabel di database 
+where di gunakan untuk mengabil yang lebih spesifik , sertakan nama COLUMN
+* bisa juga di ganti dengan nama dari COLUMN tabel 
+
+SQL SYNTAX  :
+
+= SELECT * FROM 'TABLE_NAME' WHERE 1
+
+
+4.mengupdate table di databse 
+
+SQL SYNTAX  :
+
+UPDATE `TABLE_NAME` SET `COLUMN1`= '[VALUE1]', `COLUMN2`= '[VALUE2]', `COLUMN3`= '[VALUE3]' WHERE 1
+
+
+5.Menghapus COLUMN pada table 
+
+SQL SYNTAX  :
+
+DELETE FROM `TABLE_NAME` WHERE 1
+
+
+
+
+
+NOTE * PERHATIKAN TANDA BACKTIK
